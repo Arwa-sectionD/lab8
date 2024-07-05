@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    font-family: 'Pacifico', cursive;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f8143ed-4ec0-4539-b8cf-827bc87f498a/d3l6i50-12ad4899-93d5-4445-a4dc-570cd5b26d9a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVmODE0M2VkLTRlYzAtNDUzOS1iOGNmLTgyN2JjODdmNDk4YVwvZDNsNmk1MC0xMmFkNDg5OS05M2Q1LTQ0NDUtYTRkYy01NzBjZDViMjZkOWEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ucfcdYqUY2e89X1aFcnWGKnk2zYqdw2G30IUlTtWgek);
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    position: relative; 
+}
+
+h1 {
+    color: white;
+    font-size: 2cm;
+    margin: 20px 0;
+}
+
+h1 span {
+    display: inline-block;
+    transition: font-size 0.3s ease, color 0.1s ease;
+}
+
+.cat-fact {
+    font-family: 'Comic Sans MS', sans-serif; 
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    font-size: 0.5cm; 
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10; 
+}
+
+button {
+    font-family: 'Comic Sans MS', sans-serif; 
+    padding: 15px 25px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    z-index: 10; 
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.NyanCatGif {
+    display: block; 
+    text-align: left;
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 5cm;
+    height: auto;
+    z-index: 1; 
+}
+
+.cat {
+    width: 25cm;
+    height: auto;
+}
